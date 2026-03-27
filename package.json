@@ -1,0 +1,23 @@
+{
+  "name": "testing-suite",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "vite",
+    "test": "jest"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "vite": "^8.0.0",
+    "jest": "^29.7.0",
+    "@testing-library/react": "^14.0.0",
+    "@testing-library/jest-dom": "^6.0.0",
+    "@testing-library/user-event": "^14.0.0",
+    "jest-environment-jsdom": "^29.7.0",
+    "babel-jest": "^29.7.0",
+    "@babel/preset-env": "^7.22.0",
+    "@babel/preset-react": "^7.22.0"
+  }
+}
