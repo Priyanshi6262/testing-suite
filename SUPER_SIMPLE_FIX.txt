@@ -1,0 +1,100 @@
+# 🚀 THE VERY SIMPLE FIX
+
+## Error You Got
+```
+'sb' is not recognized as an internal or external command
+```
+
+## Why It Happened
+npm installation was interrupted or incomplete
+
+## How To Fix (3 Simple Options)
+
+---
+
+## OPTION A: Windows Batch (EASIEST)
+
+**STEP 1:** Open File Manager
+**STEP 2:** Go to folder: `D:\vs_code\testing-suite`
+**STEP 3:** **Double-click** this file:
+```
+setup.bat
+```
+**STEP 4:** Wait (do not close the window)
+**STEP 5:** Browser opens with Storybook!
+
+---
+
+## OPTION B: Copy Paste in Terminal
+
+**STEP 1:** Open PowerShell or Command Prompt
+**STEP 2:** Go to: `D:\vs_code\testing-suite`
+**STEP 3:** Copy and paste this:
+
+```
+npm cache clean --force
+```
+(wait for it to finish)
+
+**STEP 4:** Then copy and paste:
+
+```
+npm install --legacy-peer-deps
+```
+(wait 3-5 minutes - DO NOT interrupt)
+
+**STEP 5:** Then copy and paste:
+
+```
+npm run storybook
+```
+
+---
+
+## OPTION C: PowerShell Script
+
+**STEP 1:** Open PowerShell
+**STEP 2:** Go to: `D:\vs_code\testing-suite`
+**STEP 3:** Run:
+
+```powershell
+.\START_STORYBOOK.ps1
+```
+
+(wait for it)
+
+---
+
+## What Happens After
+
+You'll see:
+```
+✓ Packages installing...
+✓ Storybook started...  
+✓ Browser opens
+✓ http://localhost:6006
+```
+
+Then you see all your components!
+
+---
+
+## Just Pick One and Do It
+
+| Method | How | Time |
+|--------|-----|------|
+| **Easiest** | Double-click setup.bat | 3 min |
+| **Middle** | Copy paste 3 commands | 3 min |
+| **Quickest** | Run PowerShell script | 3 min |
+
+All fix the same problem!
+
+---
+
+## Done!
+
+After you do ONE of these 3 options above, Storybook will work.
+
+No more "'sb' is not recognized" error!
+
+Visit: http://localhost:6006

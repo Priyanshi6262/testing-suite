@@ -1,0 +1,86 @@
+# 🔴 FIX "'sb' is not recognized" - DO THIS NOW
+
+## The Problem
+```
+'sb' is not recognized as an internal or external command
+```
+
+## The Root Cause
+**npm install didn't finish completely** → Binary files not created → Storybook CLI can't run
+
+---
+
+## ✅ THE FIX (Pick ONE)
+
+### 🟢 OPTION 1: EASIEST (Windows Users)
+
+**Just double-click this file in your file manager:**
+
+```
+setup.bat
+```
+
+Done! It will:
+- Install everything
+- Start Storybook  
+- Open http://localhost:6006
+
+---
+
+### 🟡 OPTION 2: PowerShell
+
+**Run in PowerShell:**
+
+```powershell
+.\START_STORYBOOK.ps1
+```
+
+Wait for it to complete. Then Storybook opens automatically.
+
+---
+
+### 🔴 OPTION 3: Manual Terminal
+
+**In terminal, run these ONE BY ONE and wait for each to finish:**
+
+```bash
+npm cache clean --force
+npm install --legacy-peer-deps
+npm run storybook
+```
+
+---
+
+## ⚠️ IMPORTANT
+
+**DO NOT INTERRUPT npm install!**
+- Let it run completely (2-5 minutes)
+- Ignore the yellow warnings
+- Only stop if you see a red ERROR
+
+---
+
+## ✅ What You'll See When It Works
+
+```
+✓ added 300+ packages (no ERRORs)
+✓ Storybook started...
+✓ http://localhost:6006 opens in browser
+✓ You see all 4 components!
+```
+
+---
+
+## 🎯 PICK ONE METHOD AND DO IT NOW
+
+**If Windows**: Double-click `setup.bat`
+
+**If PowerShell**: Run `.\START_STORYBOOK.ps1`
+
+**If Terminal**: Paste the 3 commands above
+
+That's literally all you need to do!
+
+---
+
+**Status**: This will completely fix the "'sb' is not recognized" error ✅

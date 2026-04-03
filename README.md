@@ -10,3 +10,17 @@
 ## Deploy
 
 https://testing-suite-ewc6.vercel.app/
+
+## Screenshots of storybook
+
+![Page1](./screenshot/home.png)
+
+![Page2](./screenshot/button.png)
+
+![Page3](./screenshot/card.png)
+![Page4](./screenshot/inc.png)
+
+![Page5](./screenshot/input.png)
+
+
+

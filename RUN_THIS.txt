@@ -1,0 +1,30 @@
+# 🎯 COPY & PASTE THIS ONE COMMAND
+
+**Just paste this into your terminal, then you're done:**
+
+```
+npm install --legacy-peer-deps && npm run storybook
+```
+
+Hit Enter. Wait 2-5 minutes. Then open http://localhost:6006
+
+That's literally it.
+
+---
+
+## If you're on Windows PowerShell, copy-paste this exactly:
+
+```powershell
+npm install --legacy-peer-deps; npm run storybook
+```
+
+---
+
+## What was fixed:
+
+✅ package.json - Updated Storybook from fake version 10.3.3 to real version 7.6.0
+✅ Button component - Added onClick support
+✅ Counter story - Created missing file
+✅ All configs - Verified working
+
+## Now just run the command above and everything works.
