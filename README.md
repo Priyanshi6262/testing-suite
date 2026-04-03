@@ -22,5 +22,6 @@ https://testing-suite-ewc6.vercel.app/
 
 ![Page5](./screenshot/input.png)
 
-
+## deploy link
+https://testing-suite-fsp6.vercel.app/?path=/story/components-input--default
 
